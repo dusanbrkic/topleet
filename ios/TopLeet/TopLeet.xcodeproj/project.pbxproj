@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		477EC9C229FB393B00CCDBCA /* TopLeetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9C129FB393B00CCDBCA /* TopLeetApp.swift */; };
+		477EC9C429FB393B00CCDBCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9C329FB393B00CCDBCA /* ContentView.swift */; };
+		477EC9C629FB393D00CCDBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477EC9C529FB393D00CCDBCA /* Assets.xcassets */; };
+		477EC9C929FB393D00CCDBCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477EC9C829FB393D00CCDBCA /* Preview Assets.xcassets */; };
+		477EC9D329FB393D00CCDBCA /* TopLeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9D229FB393D00CCDBCA /* TopLeetTests.swift */; };
+		477EC9DD29FB393D00CCDBCA /* TopLeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9DC29FB393D00CCDBCA /* TopLeetUITests.swift */; };
+		477EC9DF29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9DE29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift */; };
+		477EC9ED29FB397E00CCDBCA /* RomanToIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9EC29FB397E00CCDBCA /* RomanToIntTests.swift */; };
+		477EC9F029FB39C700CCDBCA /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9EF29FB39C700CCDBCA /* RomanToInt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		477EC9CF29FB393D00CCDBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 477EC9B629FB393B00CCDBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 477EC9BD29FB393B00CCDBCA;
+			remoteInfo = TopLeet;
+		};
+		477EC9D929FB393D00CCDBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 477EC9B629FB393B00CCDBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 477EC9BD29FB393B00CCDBCA;
+			remoteInfo = TopLeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		477EC9BE29FB393B00CCDBCA /* TopLeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopLeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		477EC9C129FB393B00CCDBCA /* TopLeetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeetApp.swift; sourceTree = "<group>"; };
+		477EC9C329FB393B00CCDBCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		477EC9C529FB393D00CCDBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		477EC9C829FB393D00CCDBCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		477EC9CE29FB393D00CCDBCA /* TopLeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopLeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		477EC9D229FB393D00CCDBCA /* TopLeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeetTests.swift; sourceTree = "<group>"; };
+		477EC9D829FB393D00CCDBCA /* TopLeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopLeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		477EC9DC29FB393D00CCDBCA /* TopLeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeetUITests.swift; sourceTree = "<group>"; };
+		477EC9DE29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		477EC9EC29FB397E00CCDBCA /* RomanToIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntTests.swift; sourceTree = "<group>"; };
+		477EC9EF29FB39C700CCDBCA /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		477EC9BB29FB393B00CCDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EC9CB29FB393D00CCDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EC9D529FB393D00CCDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		477EC9B529FB393B00CCDBCA = {
+			isa = PBXGroup;
+			children = (
+				477EC9C029FB393B00CCDBCA /* TopLeet */,
+				477EC9D129FB393D00CCDBCA /* TopLeetTests */,
+				477EC9DB29FB393D00CCDBCA /* TopLeetUITests */,
+				477EC9BF29FB393B00CCDBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		477EC9BF29FB393B00CCDBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9BE29FB393B00CCDBCA /* TopLeet.app */,
+				477EC9CE29FB393D00CCDBCA /* TopLeetTests.xctest */,
+				477EC9D829FB393D00CCDBCA /* TopLeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		477EC9C029FB393B00CCDBCA /* TopLeet */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9EE29FB39BC00CCDBCA /* Problems */,
+				477EC9C129FB393B00CCDBCA /* TopLeetApp.swift */,
+				477EC9C329FB393B00CCDBCA /* ContentView.swift */,
+				477EC9C529FB393D00CCDBCA /* Assets.xcassets */,
+				477EC9C729FB393D00CCDBCA /* Preview Content */,
+			);
+			path = TopLeet;
+			sourceTree = "<group>";
+		};
+		477EC9C729FB393D00CCDBCA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9C829FB393D00CCDBCA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		477EC9D129FB393D00CCDBCA /* TopLeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9EB29FB396100CCDBCA /* Problems */,
+				477EC9D229FB393D00CCDBCA /* TopLeetTests.swift */,
+			);
+			path = TopLeetTests;
+			sourceTree = "<group>";
+		};
+		477EC9DB29FB393D00CCDBCA /* TopLeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9DC29FB393D00CCDBCA /* TopLeetUITests.swift */,
+				477EC9DE29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift */,
+			);
+			path = TopLeetUITests;
+			sourceTree = "<group>";
+		};
+		477EC9EB29FB396100CCDBCA /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9EC29FB397E00CCDBCA /* RomanToIntTests.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		477EC9EE29FB39BC00CCDBCA /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				477EC9EF29FB39C700CCDBCA /* RomanToInt.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		477EC9BD29FB393B00CCDBCA /* TopLeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477EC9E229FB393D00CCDBCA /* Build configuration list for PBXNativeTarget "TopLeet" */;
+			buildPhases = (
+				477EC9BA29FB393B00CCDBCA /* Sources */,
+				477EC9BB29FB393B00CCDBCA /* Frameworks */,
+				477EC9BC29FB393B00CCDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopLeet;
+			productName = TopLeet;
+			productReference = 477EC9BE29FB393B00CCDBCA /* TopLeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		477EC9CD29FB393D00CCDBCA /* TopLeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477EC9E529FB393D00CCDBCA /* Build configuration list for PBXNativeTarget "TopLeetTests" */;
+			buildPhases = (
+				477EC9CA29FB393D00CCDBCA /* Sources */,
+				477EC9CB29FB393D00CCDBCA /* Frameworks */,
+				477EC9CC29FB393D00CCDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				477EC9D029FB393D00CCDBCA /* PBXTargetDependency */,
+			);
+			name = TopLeetTests;
+			productName = TopLeetTests;
+			productReference = 477EC9CE29FB393D00CCDBCA /* TopLeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		477EC9D729FB393D00CCDBCA /* TopLeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477EC9E829FB393D00CCDBCA /* Build configuration list for PBXNativeTarget "TopLeetUITests" */;
+			buildPhases = (
+				477EC9D429FB393D00CCDBCA /* Sources */,
+				477EC9D529FB393D00CCDBCA /* Frameworks */,
+				477EC9D629FB393D00CCDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				477EC9DA29FB393D00CCDBCA /* PBXTargetDependency */,
+			);
+			name = TopLeetUITests;
+			productName = TopLeetUITests;
+			productReference = 477EC9D829FB393D00CCDBCA /* TopLeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		477EC9B629FB393B00CCDBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					477EC9BD29FB393B00CCDBCA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					477EC9CD29FB393D00CCDBCA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 477EC9BD29FB393B00CCDBCA;
+					};
+					477EC9D729FB393D00CCDBCA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 477EC9BD29FB393B00CCDBCA;
+					};
+				};
+			};
+			buildConfigurationList = 477EC9B929FB393B00CCDBCA /* Build configuration list for PBXProject "TopLeet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 477EC9B529FB393B00CCDBCA;
+			productRefGroup = 477EC9BF29FB393B00CCDBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				477EC9BD29FB393B00CCDBCA /* TopLeet */,
+				477EC9CD29FB393D00CCDBCA /* TopLeetTests */,
+				477EC9D729FB393D00CCDBCA /* TopLeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		477EC9BC29FB393B00CCDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477EC9C929FB393D00CCDBCA /* Preview Assets.xcassets in Resources */,
+				477EC9C629FB393D00CCDBCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EC9CC29FB393D00CCDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EC9D629FB393D00CCDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		477EC9BA29FB393B00CCDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477EC9C429FB393B00CCDBCA /* ContentView.swift in Sources */,
+				477EC9F029FB39C700CCDBCA /* RomanToInt.swift in Sources */,
+				477EC9C229FB393B00CCDBCA /* TopLeetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EC9CA29FB393D00CCDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477EC9ED29FB397E00CCDBCA /* RomanToIntTests.swift in Sources */,
+				477EC9D329FB393D00CCDBCA /* TopLeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EC9D429FB393D00CCDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477EC9DF29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift in Sources */,
+				477EC9DD29FB393D00CCDBCA /* TopLeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		477EC9D029FB393D00CCDBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 477EC9BD29FB393B00CCDBCA /* TopLeet */;
+			targetProxy = 477EC9CF29FB393D00CCDBCA /* PBXContainerItemProxy */;
+		};
+		477EC9DA29FB393D00CCDBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 477EC9BD29FB393B00CCDBCA /* TopLeet */;
+			targetProxy = 477EC9D929FB393D00CCDBCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		477EC9E029FB393D00CCDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		477EC9E129FB393D00CCDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		477EC9E329FB393D00CCDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TopLeet/Preview Content\"";
+				DEVELOPMENT_TEAM = XAAXVCT5HN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.TopLeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		477EC9E429FB393D00CCDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TopLeet/Preview Content\"";
+				DEVELOPMENT_TEAM = XAAXVCT5HN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.TopLeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		477EC9E629FB393D00CCDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAAXVCT5HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.TopLeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopLeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopLeet";
+			};
+			name = Debug;
+		};
+		477EC9E729FB393D00CCDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAAXVCT5HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.TopLeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopLeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopLeet";
+			};
+			name = Release;
+		};
+		477EC9E929FB393D00CCDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAAXVCT5HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.TopLeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopLeet;
+			};
+			name = Debug;
+		};
+		477EC9EA29FB393D00CCDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAAXVCT5HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.TopLeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopLeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		477EC9B929FB393B00CCDBCA /* Build configuration list for PBXProject "TopLeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477EC9E029FB393D00CCDBCA /* Debug */,
+				477EC9E129FB393D00CCDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477EC9E229FB393D00CCDBCA /* Build configuration list for PBXNativeTarget "TopLeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477EC9E329FB393D00CCDBCA /* Debug */,
+				477EC9E429FB393D00CCDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477EC9E529FB393D00CCDBCA /* Build configuration list for PBXNativeTarget "TopLeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477EC9E629FB393D00CCDBCA /* Debug */,
+				477EC9E729FB393D00CCDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477EC9E829FB393D00CCDBCA /* Build configuration list for PBXNativeTarget "TopLeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477EC9E929FB393D00CCDBCA /* Debug */,
+				477EC9EA29FB393D00CCDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 477EC9B629FB393B00CCDBCA /* Project object */;
+}
