@@ -1,4 +1,4 @@
-module LongestSubstring exposing (..)
+module LongestSubstring exposing (lengthOfLongestSubstring)
 
 import Dict
 
