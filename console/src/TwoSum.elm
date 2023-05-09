@@ -1,6 +1,6 @@
 module TwoSum exposing (..)
 
-import Dict exposing (Dict)
+import Dict
 
 
 
@@ -24,11 +24,4 @@ twoSum nums target =
                         ( Dict.insert num i complements, Nothing )
             )
             ( Dict.empty, Nothing )
-        |> (\( _, acc ) ->
-                case acc of
-                    Just ( first, second ) ->
-                        Just [ first, second ]
-
-                    Nothing ->
-                        Nothing
-           )
+        |> (\( _, acc ) -> acc |> Maybe.map (\( first, second ) -> [ first, second ]))
