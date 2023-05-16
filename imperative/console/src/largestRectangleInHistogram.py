@@ -4,7 +4,7 @@ class Solution:
         largest = 0
         for i in range(0, len(heights)):
             popped = None
-            while stack != [] or stack[-1][1] > heights[i]:
+            while stack != [] and stack[-1][1] > heights[i]:
                 popped = stack.pop()
                 largest = max(largest, (i - popped[0]) * popped[1])
             
