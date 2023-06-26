@@ -16,6 +16,7 @@
 		477EC9DF29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9DE29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift */; };
 		477EC9ED29FB397E00CCDBCA /* RomanToIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9EC29FB397E00CCDBCA /* RomanToIntTests.swift */; };
 		477EC9F029FB39C700CCDBCA /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EC9EF29FB39C700CCDBCA /* RomanToInt.swift */; };
+		47A0353F2A49844D00A0DCC2 /* PalindromicSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0353E2A49844D00A0DCC2 /* PalindromicSubstrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		477EC9DE29FB393D00CCDBCA /* TopLeetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		477EC9EC29FB397E00CCDBCA /* RomanToIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntTests.swift; sourceTree = "<group>"; };
 		477EC9EF29FB39C700CCDBCA /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
+		47A0353E2A49844D00A0DCC2 /* PalindromicSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicSubstrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				477EC9EF29FB39C700CCDBCA /* RomanToInt.swift */,
+				47A0353E2A49844D00A0DCC2 /* PalindromicSubstrings.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A0353F2A49844D00A0DCC2 /* PalindromicSubstrings.swift in Sources */,
 				477EC9C429FB393B00CCDBCA /* ContentView.swift in Sources */,
 				477EC9F029FB39C700CCDBCA /* RomanToInt.swift in Sources */,
 				477EC9C229FB393B00CCDBCA /* TopLeetApp.swift in Sources */,
